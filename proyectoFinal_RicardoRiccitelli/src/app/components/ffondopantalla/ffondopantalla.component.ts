@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './ffondopantalla.component.html',
   styleUrls: ['./ffondopantalla.component.css']
 })
-export class FfondopantallaComponent implements OnInit {
+export class ffondopantallaComponent implements OnInit {
 
   constructor() { }
 

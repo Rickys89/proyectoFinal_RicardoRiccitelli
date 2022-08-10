@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FfondopantallaComponent } from './ffondopantalla.component';
+import { ffondopantallaComponent } from './ffondopantalla.component';
 
-describe('FfondopantallaComponent', () => {
-  let component: FfondopantallaComponent;
-  let fixture: ComponentFixture<FfondopantallaComponent>;
+describe('ffondopantallaComponent', () => {
+  let component: ffondopantallaComponent;
+  let fixture: ComponentFixture<ffondopantallaComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FfondopantallaComponent ]
+      declarations: [ ffondopantallaComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FfondopantallaComponent);
+    fixture = TestBed.createComponent(ffondopantallaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

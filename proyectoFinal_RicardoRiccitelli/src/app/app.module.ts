@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { APlogoComponent } from './components/aplogo/aplogo.component';
 import { SocialComponent } from './components/social/social.component';
-import { FfondopantallaComponent } from './components/ffondopantalla/ffondopantalla.component';
+import { ffondopantallaComponent } from './components/ffondopantalla/ffondopantalla.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { FfondopantallaComponent } from './components/ffondopantalla/ffondopanta
     HeaderComponent,
     APlogoComponent,
     SocialComponent,
-    FfondopantallaComponent
+    ffondopantallaComponent
   ],
   imports: [
     BrowserModule,

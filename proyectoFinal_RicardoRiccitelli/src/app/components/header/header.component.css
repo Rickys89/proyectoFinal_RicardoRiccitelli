@@ -1,8 +1,12 @@
 div{
-    background-color: red;
+    background:linear-gradient(70deg, rgb(1, 38, 130) 10%, rgb(13, 177, 253)90%);
+    background-repeat:no-repeat;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 app-social{
     float: right;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
