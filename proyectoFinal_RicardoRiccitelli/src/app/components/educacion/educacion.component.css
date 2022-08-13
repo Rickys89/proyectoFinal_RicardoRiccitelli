@@ -1,0 +1,15 @@
+.row{
+    padding: 20px;
+}
+
+div{
+    background-color: lightcyan
+}
+
+h1, h3{
+    padding: 10px;
+    display: inline;
+    }
+p{
+    padding:10px;
+}

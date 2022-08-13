@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { APlogoComponent } from './components/aplogo/aplogo.component';
 import { SocialComponent } from './components/social/social.component';
 import { ffondopantallaComponent } from './components/ffondopantalla/ffondopantalla.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { ffondopantallaComponent } from './components/ffondopantalla/ffondopanta
     HeaderComponent,
     APlogoComponent,
     SocialComponent,
-    ffondopantallaComponent
+    ffondopantallaComponent,
+    AcercaDeComponent,
+    ExperienciaComponent,
+    EducacionComponent
   ],
   imports: [
     BrowserModule,
