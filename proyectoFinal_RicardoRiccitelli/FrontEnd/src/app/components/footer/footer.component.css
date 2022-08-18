@@ -1,0 +1,12 @@
+.row{
+    background-color: aquamarine;
+    }
+footer{
+    color: rgb(165, 155, 155);
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px -2px 5px rgb(92, 90, 90);
+}

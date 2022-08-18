@@ -1,0 +1,43 @@
+#APlogo{
+    width: 200px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 60px;
+    margin-right: 5px;
+    }
+.boton{
+    text-align: center;
+    padding-bottom: 10px;
+}
+button{
+    border-width: medium;
+    border-color: white;
+}
+
+/*---- para la vista de celular ---- */
+
+@media (max-width:575px){
+.container{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.redes img{
+    margin: 0.3em;
+}
+.boton{
+    margin: 0.3em;
+    text-align: center;
+    margin-right: 30px;
+}
+}
