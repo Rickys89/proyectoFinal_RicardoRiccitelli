@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-aplogo',
   templateUrl: './aplogo.component.html',
@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class APlogoComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private router:Router) { }
+  
   ngOnInit(): void {
   }
 
+  login(){
+    this.router.navigate(['/login']);
+  }
 }
